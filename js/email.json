@@ -1,0 +1,25 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Hello world!"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Http",
+      "title": "Click me!",
+      "method": "POST",
+      "url": "https://contoso.com/api/...",
+      "body": "<body of the POST request>",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ]
+}
