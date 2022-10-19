@@ -1,24 +1,40 @@
 {
-  "type": "AdaptiveCard",
-  "version": "1.0",
-  "body": [
+  "title" : "Planes Renta de Grúa",
+  "sub" : "C.E.M",
+  "nota": "*estos precios se agregan al precio final de tu servicio",
+  "active" : true,
+  "members" : [
     {
-      "type": "TextBlock",
-      "text": "Hello world!"
-    }
-  ],
-  "actions": [
+      "name" : "Plan 1",
+      "tipo" : "Básico",
+      "precio" : "+$00.00",
+      "caracteristicas" : [
+        "Solo renta de la grúa",
+        "Sin operario",
+        "Con gasolina quedante",
+        "Atención al cliente"
+      ]
+    },
     {
-      "type": "Action.Http",
-      "title": "Click me!",
-      "method": "POST",
-      "url": "https://contoso.com/api/...",
-      "body": "<body of the POST request>",
-      "headers": [
-        {
-          "name": "Content-Type",
-          "value": "application/json"
-        }
+      "name" : "Plan 2",
+      "tipo" : "Medio",
+      "precio" : "+$100.00",
+      "caracteristicas" : [
+        "Transporte de la grúa",
+        "Con operario y gasolina",
+        "Herramientas basicas",
+        "Atención al cliente",
+      ]
+    },
+    {
+      "name" : "Plan 3",
+      "tipo" : "Completo",
+      "precio" : "+$200.00",
+      "caracteristicas" : [
+        "Trabajadores extra",
+        "Maquinaria extra",
+        "Herramientas especificas",
+        "Atención al cliente y asistencia",
       ]
     }
   ]
